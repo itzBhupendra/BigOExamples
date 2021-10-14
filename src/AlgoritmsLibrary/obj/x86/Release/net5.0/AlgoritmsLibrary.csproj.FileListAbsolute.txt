@@ -1,0 +1,11 @@
+C:\Codebase\GitDirectories\BigOExamples\src\AlgoritmsLibrary\bin\x86\Release\net5.0\AlgoritmsLibrary.deps.json
+C:\Codebase\GitDirectories\BigOExamples\src\AlgoritmsLibrary\bin\x86\Release\net5.0\AlgoritmsLibrary.dll
+C:\Codebase\GitDirectories\BigOExamples\src\AlgoritmsLibrary\bin\x86\Release\net5.0\ref\AlgoritmsLibrary.dll
+C:\Codebase\GitDirectories\BigOExamples\src\AlgoritmsLibrary\bin\x86\Release\net5.0\AlgoritmsLibrary.pdb
+C:\Codebase\GitDirectories\BigOExamples\src\AlgoritmsLibrary\obj\x86\Release\net5.0\AlgoritmsLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Codebase\GitDirectories\BigOExamples\src\AlgoritmsLibrary\obj\x86\Release\net5.0\AlgoritmsLibrary.AssemblyInfoInputs.cache
+C:\Codebase\GitDirectories\BigOExamples\src\AlgoritmsLibrary\obj\x86\Release\net5.0\AlgoritmsLibrary.AssemblyInfo.cs
+C:\Codebase\GitDirectories\BigOExamples\src\AlgoritmsLibrary\obj\x86\Release\net5.0\AlgoritmsLibrary.csproj.CoreCompileInputs.cache
+C:\Codebase\GitDirectories\BigOExamples\src\AlgoritmsLibrary\obj\x86\Release\net5.0\AlgoritmsLibrary.dll
+C:\Codebase\GitDirectories\BigOExamples\src\AlgoritmsLibrary\obj\x86\Release\net5.0\ref\AlgoritmsLibrary.dll
+C:\Codebase\GitDirectories\BigOExamples\src\AlgoritmsLibrary\obj\x86\Release\net5.0\AlgoritmsLibrary.pdb
