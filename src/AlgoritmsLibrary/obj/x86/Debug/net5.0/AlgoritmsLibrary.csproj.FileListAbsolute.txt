@@ -9,3 +9,4 @@ C:\Codebase\GitDirectories\BigOExamples\src\AlgoritmsLibrary\obj\x86\Debug\net5.
 C:\Codebase\GitDirectories\BigOExamples\src\AlgoritmsLibrary\obj\x86\Debug\net5.0\AlgoritmsLibrary.dll
 C:\Codebase\GitDirectories\BigOExamples\src\AlgoritmsLibrary\obj\x86\Debug\net5.0\ref\AlgoritmsLibrary.dll
 C:\Codebase\GitDirectories\BigOExamples\src\AlgoritmsLibrary\obj\x86\Debug\net5.0\AlgoritmsLibrary.pdb
+C:\Codebase\GitDirectories\BigOExamples\src\AlgoritmsLibrary\obj\x86\Debug\net5.0\AlgoritmsLibrary.csproj.AssemblyReference.cache
