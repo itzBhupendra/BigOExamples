@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Nzv/8LPND4auJBb+feHvktg/PaUg5Yc/4pI61xwxzgtFWsNNABXlKOojpbLdNcEUIYUVNq/mPYZh2neZUH23Vg==",
+  "dgSpecHash": "XgpbsOhGm6zj3KKWdCcAUNVko/3jKtS7NlQNxbrccRb17Patn/E5nfhgnZt9qHxw8TkUW0RuI3BKNJLSXt3p5Q==",
   "success": true,
-  "projectFilePath": "C:\\Codebase\\GitDirectories\\BigOExamples\\src\\AlgoritmsLibrary\\AlgoritmsLibrary.csproj",
+  "projectFilePath": "C:\\Codebase\\GitDirectories\\BigOExamples\\src\\src\\AlgoritmsLibrary\\AlgoritmsLibrary.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
