@@ -22,9 +22,7 @@ namespace AlgoritmsLibrary.LeetCode
                     return s[0].ToString();
 
             }
-            System.Collections.Generic.Dictionary<int, char> dicValues = new Dic
-                
-                tionary<int, char>();
+            System.Collections.Generic.Dictionary<int, char> dicValues = new Dictionary<int, char>();
         
             for (int i = 0; i < s.Length; i++)
             {
