@@ -17,5 +17,14 @@ namespace UniteTestAlgorithms
 
             Assert.AreEqual("bacab", findLongestPalindrome.LongestPalindrome("abacab"));
         }
+
+        [Test]
+        public void TestTwoSum()
+        {
+            
+
+            TwoSumProblem.TwoSum(new int[] { 1, 1, 1, 1, 1, 4, 1, 1, 1, 1, 1, 7, 1, 1, 1, 1, 1 }, 11);
+
+        }
     }
 }
