@@ -1,5 +1,7 @@
 using AlgoritmsLibrary;
+using AlgoritmsLibrary.AlgoExpert;
 using NUnit.Framework;
+using System.Collections.Generic;
 
 namespace UniteTestAlgorithms
 {
@@ -36,6 +38,21 @@ namespace UniteTestAlgorithms
         public void CheckPalindromeAutoFail()
         {
             Assert.AreEqual(false, palindrome.CheckPalindromeAuto("zxzdvvfxfgfgsfgsfbzfxbfgfgssbervsdfsdbdrgdvDSgsgSDvDSGasgdsvzdgeasgDzsfdsagasg"));
+        }
+
+        [Test]
+        public void CheckValidSubsequenceShouldPass()
+        {
+            var array = new List<int> { 5, 1, 22, 25, 6, -1, 8, 10 };
+            var sequence = new List<int> { 1, 6, -1, 10 };
+            Assert.AreEqual(true, SubSequenceArray.IsValidSubsequence(array, sequence));
+        }
+        [Test]
+        public void CheckValidSubsequenceShouldFail()
+        {
+            var array = new List<int> { 5, 1, 22, 25, 6, -1, 8, 10 };
+            var sequence = new List<int> { 1, 6, 10, -1 };
+            Assert.AreEqual(false, SubSequenceArray.IsValidSubsequence(array, sequence));
         }
     }
 }
