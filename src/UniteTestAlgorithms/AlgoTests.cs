@@ -54,5 +54,21 @@ namespace UniteTestAlgorithms
             var sequence = new List<int> { 1, 6, 10, -1 };
             Assert.AreEqual(false, SubSequenceArray.IsValidSubsequence(array, sequence));
         }
+        [Test]
+        public void SortedSquaredArrayShouldPass()
+        {
+            var array = new int[] { 1,2,3,4,5,6,7,8,9 };
+            var result= new int[] { 1, 4, 9, 16, 25, 36, 49, 64, 81 };
+            Assert.AreEqual(result, SortedSquaredArrayClass.SortedSquaredArray(array));
+        }
+
+        [Test]
+        public void SortedSquaredArrayShouldPass2()
+        {
+            var array = new int[] { -10, -5, 0, 5, 10 };
+            var result = new int[] { 0, 25, 25,100, 100 };
+            Assert.AreEqual(result, SortedSquaredArrayClass.SortedSquaredArray(array));
+        }
+
     }
 }
