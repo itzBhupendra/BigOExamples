@@ -93,5 +93,14 @@ namespace UniteTestAlgorithms
             Assert.AreEqual(expected, TournamentWinnerClass.TournamentWinner(competitions, results));
         }
 
+        [Test]
+        public void NonConstructibleChangeShouldPass()
+        {
+            int[] input = new int[] { 5, 7, 1, 1, 2, 3, 22 };
+            int expected = 20;
+            var actual = NonConstructibleChange.fnNonConstructibleChange(input);
+            Assert.AreEqual(expected, actual);
+        }
+
     }
 }
