@@ -183,4 +183,28 @@ namespace AlgoritmsLibrary.AlgoExpert
         }
 
     }
+
+    public class ValidateBSTs
+    {
+        public static bool ValidateBst(BST tree)
+        {
+            // Write your code here.
+            return validate(tree, int.MinValue, int.MaxValue);            
+        }
+        static bool validate(BST tree, int minVal,int maxVal )
+        {
+            if (tree == null)
+                return true;
+            if (tree.value < maxVal && tree.value >= minVal)
+            {                
+                return  validate(tree.left, minVal, tree.value) && 
+                        validate(tree.right, tree.value, maxVal);
+            }
+            return false;
+
+            
+
+            
+        }
+    }
 }
