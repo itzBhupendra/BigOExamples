@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AlgoritmsLibrary.AlgoExpert
 {
-    public  class BST
+    public class BST
     {
         public int value;
         public BST right;
@@ -79,12 +79,12 @@ namespace AlgoritmsLibrary.AlgoExpert
 
         public int GetMinValue()
         {
-            return left ?.GetMinValue() ?? value;
+            return left?.GetMinValue() ?? value;
         }
         public BST Remove(int _value, BST parentNode = null)
         {
             var currentNode = this;
-            while (currentNode!= null)
+            while (currentNode != null)
             {
                 if (_value < currentNode.value)
                 {
@@ -125,7 +125,7 @@ namespace AlgoritmsLibrary.AlgoExpert
 
                         }
                     }
-                    else if (parentNode.left== currentNode)
+                    else if (parentNode.left == currentNode)
                     {
                         parentNode.left = currentNode.left ?? currentNode.right;
                     }
@@ -135,12 +135,52 @@ namespace AlgoritmsLibrary.AlgoExpert
                         parentNode.right = currentNode.left ?? currentNode.right;
                     }
                     break;
-                        
+
                 }
-                
+
 
             }
             return this;
         }
+
+
+    }
+
+    public class ClosestValueInBST
+    {
+        public static int findClosestValueInBST(BST tree, int target)
+        {
+            int value = -1;
+            int NodeValue = 0;
+            var currentNode = tree;
+
+            while (currentNode!= null)
+            {
+
+                if (target > currentNode.value)
+                {
+                    if (value ==-1 || value > (target - currentNode.value  ))
+                    {
+                        value = target- currentNode.value;
+                        NodeValue = currentNode.value;
+
+                    }
+                    currentNode = currentNode.right;
+                }
+                else
+                {
+                    if (value == -1 || value > (currentNode.value - target))
+                    {
+                        value = currentNode.value - target;
+                        NodeValue = currentNode.value;
+
+                    }
+                    currentNode = currentNode.left;
+
+                }
+            }
+            return NodeValue;
+        }
+
     }
 }
